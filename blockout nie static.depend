@@ -1,0 +1,162 @@
+# depslib dependency file v1.0
+1334389474 source:y:\c++\zajecia 14\blockout nie static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+
+1337982510 
+
+1335558556 source:c:\users\artur\desktop\c++\c++\zajecia 14\blockout nie static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1335558600 source:z:\c++\zajecia 14\blockout nie static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1335968537 source:c:\users\artur\desktop\c++\c++\zajecia 14_allegro\blockout nie static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1336809486 source:z:\c++\zajecia 14_allegro\blockout nie static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1336927084 source:c:\users\artur\desktop\c++\c++\zajecia_14_allegro\blockout_nie_static\main.cpp
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+	<generator.h>
+	<menu.h>
+
+1336825300 c:\users\artur\desktop\c++\c++\zajecia_14_allegro\blockout_nie_static\\generator.h
+
+1336843790 c:\users\artur\desktop\c++\c++\zajecia_14_allegro\blockout_nie_static\\menu.h
+
+1336926298 c:\users\artur\desktop\c++\c++\zajecia_14_allegro\blockout_nie_static\generator.h
+
+1336941705 c:\users\artur\desktop\c++\c++\zajecia_14_allegro\blockout_nie_static\menu.h
+
+1337986253 source:c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\main.cpp
+	<head.h>
+	<plik.h>
+	<menu.h>
+	<generator.h>
+	<edytor.h>
+
+1337982653 
+
+1337103845 c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\generator.h
+
+1337986110 c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\menu.h
+	<sstream>
+
+1337986253 source:d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\main.cpp
+	<head.h>
+	<plik.h>
+	<menu.h>
+	<generator.h>
+	<edytor.h>
+
+1337103845 d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\generator.h
+
+1337986110 d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\menu.h
+	<sstream>
+
+1337777320 c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\head.h
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1337777320 d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\head.h
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1337629582 source:d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\generator.cpp
+	<head.h>
+
+1337785795 source:d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\plik.h
+
+1337969007 d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\plik.h
+
+1337794883 source:/home/cytadela8/Dropbox/szkoÅ‚a/blockout_nie_static/main.cpp
+	<head.h>
+	<generator.h>
+	<menu.h>
+	<plik.h>
+
+1337777320 /home/cytadela8/Dropbox/szkoÅ‚a/blockout_nie_static/head.h
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1337103845 /home/cytadela8/Dropbox/szkoÅ‚a/blockout_nie_static/generator.h
+
+1337791279 /home/cytadela8/Dropbox/szkoÅ‚a/blockout_nie_static/menu.h
+	<sstream>
+
+1337798040 /home/cytadela8/Dropbox/szkoÅ‚a/blockout_nie_static/plik.h
+
+1337981864 d:\moje dokumenty\dropbox\szko³a\blockout_nie_static\edytor.h
+
+1337969007 c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\plik.h
+
+1337981864 c:\users\ap2544\desktop\dropbox\szko³a\blockout_nie_static\edytor.h
+
+1337982653 source:c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\main.cpp
+	<head.h>
+	<plik.h>
+	<menu.h>
+	<generator.h>
+	<edytor.h>
+
+1337773720 c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\head.h
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1337965407 c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\plik.h
+
+1337982510 c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\menu.h
+	<sstream>
+
+1337100245 c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\generator.h
+
+1337978264 c:\users\artur\desktop\dropbox\szko³a\blockout_nie_static\edytor.h
+
+1337986253 source:/home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/main.cpp
+	<head.h>
+	<plik.h>
+	<menu.h>
+	<generator.h>
+	<edytor.h>
+
+1337777320 /home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/head.h
+	<allegro.h>
+	<cstdlib>
+	<ctime>
+	<fstream>
+
+1337969007 /home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/plik.h
+
+1337986110 /home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/menu.h
+	<sstream>
+
+1337103845 /home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/generator.h
+
+1337981864 /home/ert/Dropbox/szkoÅ‚a/blockout_nie_static/edytor.h
+

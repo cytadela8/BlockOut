@@ -1,0 +1,176 @@
+void generator(short int komp)
+{
+	bool kon;
+    short int wieltab[2]={14,10},ilruch=20,odl,ostkier;
+    bool pozkal[wieltab[0][wieltab[1]];
+    bool tab[wieltab[0]][wieltab[1]];
+    for (int i=0;i<wieltab[0];i++)
+    {
+    	for (int j=0;j<wieltab[1];j++)
+    	{
+    		tab[i][j]=false;
+    		pozkal[i][j]=false;
+    	}
+    }
+    tab[0][0]=true;
+    x=0;
+    y=0;
+    kier=nic;
+    kon=true;
+    for (int i=0;i<ilruch;i++)
+    {
+    	while (1==1)
+        {
+        	if (kon)
+        	ostkier=kier;
+        	kier=rand()%4+1;
+        	kon=false;
+        	if ((kier==gora&&y==0)||(kier==lewo&&x==0)||(kier==prawo&&x==(wieltab[0]-1))||(kier==dol&&y==(wieltab[1]-1)))
+			continue;
+			if (ostkier==kier)
+			continue;
+
+			switch (kier)
+			{
+				case dol:
+				{
+					if (ostkier==gora)
+					continue;
+       				odl=rand()%(wieltab[1]-y-1)+1;
+       				kon=false;
+       				for (int j=1;j<=odl;j++)
+       				{
+       					if (getpixel(mapa,x*50+25,(y+j)*50+25)==makecol(150,149,148))
+       					{
+       						kon=true;
+       						break;
+       					}
+       				}
+					if (kon)
+					continue;
+					kon=false;
+
+					if (y+odl+1<wieltab[1])
+					{
+						if (tab[x][y+odl+1])
+						continue;
+						floodfill(mapa,x*50+25,(y+odl+1)*50+25,makecol(150,149,148));
+					}
+					for (int j=1;j<=odl;j++)
+					{
+						tab[x][y+j]=true;
+					}
+       				kon=true;
+       				y+=odl;
+       				break;
+				}
+				case gora:
+				{
+					if (ostkier==dol)
+					continue;
+					odl=rand()%y+1;
+       				kon=false;
+       				for (int j=1;j<=odl;j++)
+       				{
+       					if (getpixel(mapa,x*50+25,(y-j)*50+25)==makecol(150,149,148))
+       					{
+       						kon=true;
+       						break;
+       					}
+       				}
+					if (kon)
+					continue;
+					kon=false;
+
+					if (y-odl>0)
+					{
+						if (tab[x][y-odl-1])
+						continue;
+						floodfill(mapa,x*50+25,(y-odl-1)*50+25,makecol(150,149,148));
+					}
+					for (int j=1;j<=odl;j++)
+					{
+						tab[x][y-j]=true;
+					}
+       				kon=true;
+       				y-=odl;
+       				break;
+       			}
+				case prawo:
+				{
+					if (ostkier==lewo)
+					continue;
+					odl=rand()%(wieltab[0]-x-1)+1;
+       				kon=false;
+       				for (int j=1;j<=odl;j++)
+       				{
+       					if (getpixel(mapa,(x+j)*50+25,y*50+25)==makecol(150,149,148))
+       					{
+       						kon=true;
+       						break;
+       					}
+       				}
+					if (kon)
+					continue;
+					kon=false;
+
+					if (x+odl+1<wieltab[0])
+					{
+						if (tab[x+odl+1][y])
+						continue;
+						floodfill(mapa,(x+odl+1)*50+25,y*50+25,makecol(150,149,148));
+					}
+					for (int j=1;j<=odl;j++)
+					{
+						tab[x+j][y]=true;
+					}
+       				kon=true;
+       				x+=odl;
+       				break;
+				}
+				case lewo:
+				{
+					if (ostkier==prawo)
+					continue;
+					odl=rand()%x+1;
+       				kon=false;
+       				for (int j=1;j<=odl;j++)
+       				{
+       					if (getpixel(mapa,(x-j)*50+25,y*50+25)==makecol(150,149,148))
+       					{
+       						kon=true;
+       						break;
+       					}
+       				}
+					if (kon)
+					continue;
+					kon=false;
+
+					if (x-odl>0)
+					{
+						if (tab[x-odl-1][y])
+						continue;
+						floodfill(mapa,(x-odl-1)*50+25,y*50+25,makecol(150,149,148));
+					}
+					for (int j=1;j<=odl;j++)
+					{
+						tab[x-j][y]=true;
+					}
+					x-=odl;
+       				kon=true;
+       				break;
+       			}
+
+
+       		}
+       		if (kon)
+			break;
+       	}
+
+
+
+
+
+    }
+    floodfill(mapa,x*50+25,y*50+25,makecol(0,200,0));
+}
