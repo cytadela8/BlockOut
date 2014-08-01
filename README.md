@@ -6,7 +6,7 @@ Blockout written in C++ using Allegro.
 - Randomly generated maps
 - Map editor
 - 4 difficulty levels
-- Castom difficulty map generator
+- Custom difficulty map generator
 
 # Screenshots
 ![](http://s27.postimg.org/u87crt0jn/image.png)
